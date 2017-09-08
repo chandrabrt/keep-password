@@ -1,7 +1,8 @@
+from tkinter import *
 import re
 import pyperclip
 
-#copy the the data on clipboard:select data & Cntrl +C and hit enter! otherwise you will not make data to be extracted
+
 def main():
     print("Email and username is extracting on file wait a second...")
     match = re.findall(r'[\w.-]+@[\w-]+[.][\w]+', pyperclip.paste())
@@ -21,15 +22,14 @@ def main():
         print("--------------------------------------")
         print("\t\tphone number:")
         print("--------------------------------------")
-        with open('phone.txt', 'a+') as f:
+        with open('phone', 'a+') as f:
             for line in p_match:
                 f.write(line+"\n")
                 print(line)
 
     phone()
 
-main()
-print("\nData is successfully extracted!!!!!!!")
 
-
-
+b = Button(text="Enter!!", command=main)
+b.pack()
+mainloop()
