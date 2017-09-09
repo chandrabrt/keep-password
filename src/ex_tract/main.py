@@ -1,9 +1,10 @@
+
 from tkinter import *
 import re
 import pyperclip
 
 
-def main():
+def my_main():
     print("Email and username is extracting on file wait a second...")
     match = re.findall(r'[\w.-]+@[\w-]+[.][\w]+', pyperclip.paste())
     p_match = re.findall(r"\+\d{3}\s?0?\d{6,10}", pyperclip.paste())
@@ -33,3 +34,11 @@ def main():
 b = Button(text="Enter!!", command=main)
 b.pack()
 mainloop()
+
+
+def main():
+    my_main()
+
+
+if __name__ == '__main__':
+    main()
