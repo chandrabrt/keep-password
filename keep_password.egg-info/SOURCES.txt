@@ -1,0 +1,7 @@
+setup.py
+keep_password.egg-info/PKG-INFO
+keep_password.egg-info/SOURCES.txt
+keep_password.egg-info/dependency_links.txt
+keep_password.egg-info/requires.txt
+keep_password.egg-info/top_level.txt
+src/keep-password

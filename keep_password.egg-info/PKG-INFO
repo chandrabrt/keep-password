@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: keep-password
+Version: 1.6
+Summary: Save password for username
+Home-page: https://github.com/chandrabrt/keep
+Author: chandra khadka
+Author-email: chandra2khadka4@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
